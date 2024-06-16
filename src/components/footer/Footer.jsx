@@ -23,7 +23,7 @@ function Footter() {
         </div>
 
         <div className={`mt-2 ${style.Text}`}>
-          <p>© 2024 Nanded Bazzar | Developed By Nidhi Soft Technology</p>
+          <p>© 2024 Nanded Bazzar | Developed By Sudhanshu Gaikwad</p>
         </div>
       </div>
     </>
