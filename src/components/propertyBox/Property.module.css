@@ -1,0 +1,117 @@
+body {
+  font-family: TriviaSeznam, Arial, Helvetica, sans-serif;
+}
+
+.main_item a {
+  text-decoration: none;
+}
+
+.property_Container {
+  padding: 10px;
+  display: flex;
+  justify-content: space-evenly;
+  height: auto;
+}
+.item {
+  padding: 10px;
+  background-color: white;
+  border-radius: 50%;
+  width: 170px;
+  height: 170px;
+  text-align: center;
+  border: 1px solid #c00;
+  cursor: pointer;
+}
+
+.item:hover {
+  padding: 10px;
+  background-color: white;
+  border-radius: 50%;
+  width: 170px;
+  height: 170px;
+  text-align: center;
+  border: 1px solid #c00;
+  cursor: pointer;
+  /* margin-top: -10px; */
+  transition: 0.1s;
+  box-shadow: 0 0 2px 0 #c00, 0 8px 30px -12px #c00;
+  box-sizing: border-box;
+}
+.item img {
+  width: 110px;
+  padding: 10px;
+  margin-top: 20px;
+}
+.last_text {
+  font-size: 20px !important;
+  color: #c00;
+  font-weight: 600;
+  cursor: pointer;
+  text-transform: uppercase;
+}
+
+/* @media (max-width: 1200px) {
+  .property_Container .text-center {
+    flex: 1 1 180px; 
+  }
+} */
+
+/* @media (max-width: 768px) {
+  
+} */
+
+@media (max-width: 576px) {
+  .property_Container {
+    display: inline;
+    padding: 0px;
+  }
+  .item {
+    margin-top: 10px;
+    text-align: start;
+  }
+  .item {
+    padding: 0px;
+    background-color: transparent;
+    border-radius: none;
+    width: none;
+    height: none;
+    text-align: center;
+    border: none;
+    cursor: pointer;
+  }
+  .item:hover {
+    padding: 0px;
+    background-color: transparent;
+    border-radius: none;
+    width: none;
+    height: none;
+    text-align: center;
+    border: none;
+    cursor: pointer;
+    transition: none;
+    margin-top: none;
+    box-shadow: none;
+    box-sizing: none;
+  }
+
+  .item img {
+    width: 80px;
+
+    margin-top: 20px;
+  }
+
+  .main_item {
+    display: flex;
+    padding-top: 0px;
+    padding-bottom: 0px;
+  }
+  .main_item:hover {
+    background-color: rgb(255, 255, 255);
+    border: 1px solid #c00;
+  }
+  .main_item p {
+    color: #c00;
+    text-align: start;
+    margin-top: 60px !important;
+  }
+}

@@ -1,0 +1,28 @@
+body {
+  font-family: TriviaSeznam, Arial, Helvetica, sans-serif;
+}
+
+.Heading img {
+  width: 130px;
+}
+.main_nav_bar {
+  box-shadow: 0 0 2px 0 rgba(0, 0, 0, 0.1), 0 8px 30px -12px rgba(0, 0, 0, 0.12);
+  box-sizing: border-box;
+  width: 100%;
+  position: fixed !important;
+  top: 0px;
+}
+
+.nav_items a {
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #c00;
+  font-weight: 600;
+}
+
+.nav_items a:hover {
+  text-transform: uppercase;
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+  font-weight: 600;
+}

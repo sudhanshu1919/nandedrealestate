@@ -1,0 +1,51 @@
+.main {
+  width: 90%;
+  background-color: white;
+  /* -webkit-box-shadow: 1px 6px 17px -7px rgba(0,0,0,0.75);
+-moz-box-shadow: 1px 6px 17px -7px rgba(0,0,0,0.75);
+box-shadow: 1px 6px 17px -7px rgba(0,0,0,0.75); */
+  border-bottom: 0.5px solid grey;
+  display: flex;
+  gap: 50px;
+  margin-bottom: 10px;
+}
+
+.title {
+  font-size: 1.5em;
+  color: #c00;
+}
+
+.sliderSection {
+  width: 250px;
+}
+.infoSection {
+  width: 50%;
+  cursor: pointer;
+  padding-top: 30px;
+}
+
+.infoSection:hover h4:first-child {
+  color: black;
+}
+.address {
+  color: grey;
+}
+
+.two {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px;
+  padding-top: 40px;
+}
+
+.two span {
+  display: block;
+  color: gray;
+}
+
+.rateValue,
+.areaValue {
+  color: black !important;
+  font-weight: bold;
+}

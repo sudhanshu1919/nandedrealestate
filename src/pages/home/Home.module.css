@@ -1,0 +1,47 @@
+body {
+  font-family: TriviaSeznam, Arial, Helvetica, sans-serif;
+}
+
+.mtop{
+  margin-top:110px;
+}
+
+.Main_container {
+margin-top:20px;
+  padding: 35px;
+  background-color: rgb(243, 243, 243);
+
+  box-shadow: 0 0 2px 0 rgba(0, 0, 0, 0.1), 0 8px 30px -12px rgba(0, 0, 0, 0.12);
+  box-sizing: border-box;
+  margin-bottom: 100px;
+  color: white;
+  border-radius: 10px;
+}
+.headding_text {
+  text-align: center;
+}
+.headding_text p {
+  color: #c00;
+  font-weight: 600;
+  font-size: 28px;
+  text-transform: uppercase;
+}
+
+
+.adv160x600{
+  background-color: rgb(116, 111, 111);
+  width:160px;
+  height:600px;
+}
+
+.adv970x90
+{
+  background-color: rgb(116, 111, 111);
+  width:970px;
+  height:90px;
+}
+@media (max-width: 576px) {
+  .Main_container {
+    background-color: rgb(243, 243, 243);
+  }
+}

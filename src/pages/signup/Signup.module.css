@@ -1,0 +1,66 @@
+body {
+  font-family: TriviaSeznam, Arial, Helvetica, sans-serif;
+}
+
+.Main_Box {
+  background-image: url("https://en.idei.club/uploads/posts/2023-04/1682427940_en-idei-club-p-corporate-background-design-1.jpg");
+  background-repeat: no-repeat;
+  height: 800px;
+  margin-top: 0px;
+}
+
+.Header {
+  background-color: #c00 !important;
+  text-transform: uppercase;
+  color: rgb(255, 255, 255) !important;
+  font-family: TriviaSeznam, Arial, Helvetica, sans-serif;
+  font-weight: 600;
+}
+.Footer {
+  background-color: rgb(255, 255, 255);
+  text-transform: uppercase;
+  border-bottom: 1px solid #c00;
+  border-left: 1px solid #c00;
+  border-right: 1px solid #c00;
+}
+
+.Body {
+  border-left: 1px solid #c00;
+  border-right: 1px solid #c00;
+}
+.signup_btn {
+  border-radius: 5px;
+  color: #c00;
+  font-size: 20px;
+  background-color: transparent;
+  text-transform: uppercase;
+  border: 1px solid#c00;
+  padding: 10px 35px 10px;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.signup_btn:hover {
+  text-transform: uppercase;
+  border-radius: 5px;
+  color: rgb(255, 255, 255);
+  background-color: #c00;
+  border: 1px solidrgb(255, 255, 255);
+  padding: 10px 35px 10px;
+  font-size: 18px;
+  font-weight: 600;
+}
+.Small_Text a {
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+  font-size: 15px;
+}
+
+.Small_Text a:hover {
+  color: #c00;
+  border-bottom: 1px solid #c00;
+}
+
+.toastPos{
+  margin-top: 100px;
+}

@@ -1,0 +1,70 @@
+body {
+  font-family: TriviaSeznam, Arial, Helvetica, sans-serif;
+}
+.Main_Box {
+  background-image: url("https://en.idei.club/uploads/posts/2023-04/1682427940_en-idei-club-p-corporate-background-design-1.jpg");
+  background-repeat: no-repeat;
+  height: 800px;
+  margin-top: 0px;
+}
+.Box {
+  border: 1px solid #c00;
+}
+.card_header {
+  background-color: #c00 !important;
+  text-transform: uppercase;
+  color: aliceblue !important;
+  font-weight: 600 !important;
+  font-family: TriviaSeznam, Arial, Helvetica, sans-serif;
+}
+
+.Cart_Body {
+  border-left: 1px solid #c00;
+  border-right: 1px solid #c00;
+}
+
+.Login_btn {
+  width: 100%;
+  color: #c00;
+  font-size: 20px;
+  text-transform: uppercase;
+  border-radius: 5px;
+  background-color: transparent;
+  border: 1px solid#c00;
+  padding: 10px 35px 10px;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.Login_btn:hover {
+  border-radius: 5px;
+  text-transform: uppercase;
+  color: rgb(255, 255, 255);
+  background-color: #c00;
+  border: 1px solid rgb(255, 255, 255);
+  padding: 10px 35px 10px;
+  font-size: 18px;
+  font-weight: 600;
+}
+.loginFooter {
+  background-color: rgb(255, 255, 255);
+  text-transform: uppercase;
+
+  border-bottom: 1px solid #c00;
+  border-left: 1px solid #c00;
+  border-right: 1px solid #c00;
+}
+.Small_Text a {
+  text-decoration: none;
+  color: black;
+  font-size: 15px;
+}
+
+.Small_Text a:hover {
+  color: #c00;
+  border-bottom: 1px solid #c00;
+}
+
+.tostpos{
+  margin-top:100px;
+}
